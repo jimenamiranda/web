@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" type="text/css" href="./cssweb.css"> 
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Jimena Miranda</figcaption>
+        </figure>
+        <img src="C:\Users\jimen\Documents\ESEN ciclo IV\PIU\Repos\website\menu.png" width:800px lenght:700px>
+        <nav>
+            <ul>
+               <li><a href="web.html">Home</a></li>
+               <li><a href=about.html>Sobre mi</a></li>
+               <li><a href="skills.html">Habilidades</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h2>Idiomas</h2>
+        <li>Español nativo</li>
+        <li>Inglés avanzado, TOEFL IBT de 9.3</li>
+        <li>Francés avanzado</li>
+        
+<h2>Reconocimientos</h2>
+        <li>Beca ESEN- Proceso de Admisión 2020</li>
+
+<h2>Información General</h2>
+        <li>2021-A la fecha- Miembro de Fundación PawPrint (ESEN)</li>
+        <li>2020- Campamento de Liderazgo EpicentroL </li>
+        <li>2019-Certificación Adobe Flash Cs6</li>
+        <li>2016-Certificación Microsoft Power Point</li>
+        </main>
+             
+
+    <script>
+            (function(){
+                var menu=document.querySelector('ul'),
+                    menulink=document.querySelector('img');
+                menulink.addEventListener('click',function(e){
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+    </script>
+    
+</body>
+</html>

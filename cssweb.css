@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&display=swap');
+body{
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    }
+
+body,html{
+    height:calc(100%-2em);
+    margin:0;
+    font-family:"Montserrat" ;
+}
+h1{
+    font-family: "Allura";
+    font-size: 50px;
+    text-align: center;
+}
+aside{
+    background-color: white;
+    color:#3494E6;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+   .menu {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+   }
+
+figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.active{
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    }
+
+ul{
+    display: none;
+     list-style-type:none;
+     margin: o;
+     padding: o;   
+  }
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    display:block;
+    padding: 1.5em 3em;
+    background-color:aliceblue;
+    color:#000;
+}
+
+main{
+    padding: 3em 2em;
+    background: none;
+    color: white;
+    }
+
+h1{
+    margin:0;
+    }
+
+p,b{
+        font-family:'Montserrat';
+        font-size: 28px; 
+        line-height: 2em;
+    }
+about{
+    background-color: #3494E6;
+}
+#foto {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: 2em auto 1em auto;
+}

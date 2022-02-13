@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" type="text/css" href="./cssweb.css"> 
+</head>
+<body>
+    <aside>
+        <figure>
+            <figcaption>Jimena Miranda</figcaption>
+        </figure>
+        <div class="menu">
+            <img src="C:\Users\jimen\Documents\ESEN ciclo IV\PIU\Repos\website\menu.png" width:800px lenght:700px>
+        </div>
+       
+        <nav>
+            <ul>
+               <li><a href="web.html">Home</a></li>
+               <li><a href=about.html>Sobre mi</a></li>
+               <li><a href="skills.html">Habilidades</a></li>
+               <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Jimena Alejandra Miranda Cerna</h1>
+        <p>Mi nombre es Jimena Miranda, tengo 20 años de edad y 
+            soy estudiante de tercer año de Ingeniería y Negocios en la Escuela Superior de Economía y Negocios. 
+            Soy una persona creativa, con capacidad de liderazgo, dispuesta a ayudar a los demás y con el constante interés de aprender cosas nuevas.</p><b>
+                En el menú de esta página web podrás encontrar más información acerca de mi, mis intereses, habilidas y maneras de contactarme.
+            </b>
+        </main>
+        <div id="foto">
+            <img src="C:\Users\jimen\Documents\ESEN ciclo IV\PIU\Repos\website\36de37b2-65c8-4b93-b628-a98d98d68afb.jpg" alt="">
+        </div>      
+
+    <script>
+            (function(){
+                var menu=document.querySelector('ul'),
+                    menulink=document.querySelector('img');
+                menulink.addEventListener('click',function(e){
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+    </script>
+    
+</body>
+</html>
